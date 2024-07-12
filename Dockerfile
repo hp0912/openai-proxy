@@ -1,4 +1,4 @@
-FROM denoland/deno:1.45.1
+FROM denoland/deno:alpine
 
 # set DENO_DIR to avoid conflicts with google cloud
 ENV DENO_DIR=./.deno_cache
